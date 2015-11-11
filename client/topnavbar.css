@@ -1,0 +1,24 @@
+.heart-explode {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 15px;
+  top: 20px;
+  transform: translate(-50%, -50%);
+  background: url(https://cssanimation.rocks/assets/images/posts/steps/heart.png) no-repeat;
+  background-position: 0 2px;
+  cursor: pointer;
+  animation: fave-heart 1s steps(28);
+}
+.heart-explode:hover {
+  background-position: -2799px 2px;
+  transition: background 1s steps(28);
+}
+@keyframes fave-heart {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -2799px 0;
+  }
+}
