@@ -2,7 +2,7 @@
 -----
 ### WIP
 
-- currently include current list pro projects
+- current list of projects
 
 ### deployed to
 - games.alex2006hw.com
